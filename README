@@ -1,1 +1,336 @@
 Only can boot ,some hardware not work ,such as audio,network, etc.
+dmesgs:
+Uncompressing Linux... done, booting the kernel.
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Linux version 2.6.35.7-gf32325c-dirty (prettywolf@www.cenxi.net) (gcc version 4.4.1 (Sourcery G++ Lite 2009q3-67) ) #24 PREEMPT Thu May 26 141
+[    0.000000] CPU: ARMv7 Processor [412fc082] revision 2 (ARMv7), cr=10c53c7f
+[    0.000000] CPU: VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+[    0.000000] Machine: SMDKV210
+[    0.000000] Ignoring unrecognised tag 0x00000000
+[    0.000000] Ignoring unrecognised tag 0x00000000
+[    0.000000] Ignoring unrecognised tag 0x41001099
+[    0.000000] Memory policy: ECC disabled, Data cache writeback
+[    0.000000] CPU S5PV210/S5PC110 (id 0x43110220)
+[    0.000000] S3C24XX Clocks, Copyright 2004 Simtec Electronics
+[    0.000000] S5PV210: PLL settings, A=1000000000, M=667000000, E=80000000 V=54000000
+[    0.000000] S5PV210: ARMCLK=1000000000, HCLKM=200000000, HCLKD=166750000
+[    0.000000] HCLKP=133400000, PCLKM=100000000, PCLKD=83375000, PCLKP=66700000
+[    0.000000] sclk_dmc: source is sclk_a2m (0), rate is 200000000
+[    0.000000] sclk_onenand: source is hclk_dsys (1), rate is 166750000
+[    0.000000] sclk: source is mout_mpll (6), rate is 66700000
+[    0.000000] sclk: source is mout_mpll (6), rate is 66700000
+[    0.000000] sclk: source is mout_mpll (6), rate is 66700000
+[    0.000000] sclk: source is mout_mpll (6), rate is 66700000
+[    0.000000] sclk_mixer: source is sclk_dac (0), rate is 54000000
+[    0.000000] sclk_spdif: source is sclk_audio (0), rate is 24000000
+[    0.000000] sclk_fimc: source is ext_xtal (0), rate is 24000000
+[    0.000000] sclk_fimc: source is ext_xtal (0), rate is 24000000
+[    0.000000] sclk_fimc: source is ext_xtal (0), rate is 24000000
+[    0.000000] sclk_cam0: source is ext_xtal (0), rate is 24000000
+[    0.000000] sclk_cam1: source is ext_xtal (0), rate is 24000000
+[    0.000000] sclk_fimd: source is ext_xtal (0), rate is 24000000
+[    0.000000] sclk_mmc: source is mout_mpll (6), rate is 47642857
+[    0.000000] sclk_mmc: source is mout_epll (7), rate is 80000000
+[    0.000000] sclk_mmc: source is mout_mpll (6), rate is 47642857
+[    0.000000] sclk_mmc: source is mout_epll (7), rate is 80000000
+[    0.000000] sclk_mfc: source is sclk_a2m (0), rate is 200000000
+[    0.000000] sclk_g2d: source is sclk_a2m (0), rate is 200000000
+[    0.000000] sclk: source is sclk_a2m (0), rate is 200000000
+[    0.000000] sclk_csis: source is ext_xtal (0), rate is 24000000
+[    0.000000] sclk_spi: source is ext_xtal (0), rate is 24000000
+[    0.000000] sclk_spi: source is ext_xtal (0), rate is 24000000
+[    0.000000] sclk_pwi: source is ext_xtal (0), rate is 24000000
+[    0.000000] sclk_pwm: source is ext_xtal (0), rate is 24000000
+[    0.000000] sclk_mdnie: source is ext_xtal (0), rate is 24000000
+[    0.000000] sclk_mdnie_pwm: source is ext_xtal (0), rate is 24000000
+[    0.000000] s5pv210: 1048576 bytes system memory reserved for mfc at 0x20a54000
+[    0.000000] s5pv210: 1048576 bytes system memory reserved for mfc at 0x40000000
+[    0.000000] s5pv210: 1048576 bytes system memory reserved for fimc0 at 0x40100000
+[    0.000000] s5pv210: 1048576 bytes system memory reserved for fimc1 at 0x40200000
+[    0.000000] s5pv210: 1048576 bytes system memory reserved for fimc2 at 0x40300000
+[    0.000000] s5pv210: 1048576 bytes system memory reserved for jpeg at 0x40400000
+[    0.000000] s5pv210: 6144000 bytes system memory reserved for fimd at 0x40500000
+[    0.000000] s5pv210: 8388608 bytes system memory reserved for g2d at 0x40adc000
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 129536
+[    0.000000] Kernel command line: ubi.mtd=4 root=ubi0:rootfs rootfstype=ubifs init=/init console=ttySAC0,115200  lcd=ut7gm camera=gc0308 mod=5 bltype=n
+[    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] Memory: 256MB 256MB = 512MB total
+[    0.000000] Memory: 493000k/493000k available, 31288k reserved, 0K highmem
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+[    0.000000]     DMA     : 0xff000000 - 0xffe00000   (  14 MB)
+[    0.000000]     vmalloc : 0xf0800000 - 0xfc000000   ( 184 MB)
+[    0.000000]     lowmem  : 0xc0000000 - 0xf0000000   ( 768 MB)
+[    0.000000]     modules : 0xbf000000 - 0xc0000000   (  16 MB)
+[    0.000000]       .init : 0xc0008000 - 0xc002b000   ( 140 kB)
+[    0.000000]       .text : 0xc002b000 - 0xc0559000   (5304 kB)
+[    0.000000]       .data : 0xc055a000 - 0xc0595fe0   ( 240 kB)
+[    0.000000] SLUB: Genslabs=9, HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] Hierarchical RCU implementation.
+[    0.000000]  RCU-based detection of stalled CPUs is disabled.
+[    0.000000]  Verbose stalled-CPUs detection is disabled.
+[    0.000000] NR_IRQS:393
+[    0.000000] VIC @fd000000: id 0x00041192, vendor 0x41
+[    0.000000] VIC @fd010000: id 0x00041192, vendor 0x41
+[    0.000000] VIC @fd020000: id 0x00041192, vendor 0x41
+[    0.000000] VIC @fd030000: id 0x00041192, vendor 0x41
+[    0.000000] mult[140737]
+[    0.000000] max_delta_ns[2937815369]
+[    0.000000] min_delta_ns[30517]
+[    0.000000] rate[32768]
+[    0.000000] HZ[256]
+[    0.000000] console [ttySAC0] enabled
+[    0.458744] Calibrating delay loop... 998.15 BogoMIPS (lpj=1949696)
+[    0.542940] pid_max: default: 32768 minimum: 301
+[    0.543026] Mount-cache hash table entries: 512
+[    0.543283] Initializing cgroup subsys debug
+[    0.543326] Initializing cgroup subsys cpuacct
+[    0.543367] Initializing cgroup subsys freezer
+[    0.545535] CPU: Testing write buffer coherency: ok
+[    0.550625] devtmpfs: initialized
+[    0.555022] regulator: core version 0.5
+[    0.557582] NET: Registered protocol family 16
+[    0.565521] S3C Power Management, Copyright 2004 Simtec Electronics
+[    0.568157] pmstats at 00000000
+[    0.571368] smdkc110_setup_clocks: sclk_mmc: source is mout_mpll, rate is 47642857
+[    0.578829] smdkc110_setup_clocks: sclk_mmc: source is mout_mpll, rate is 47642857
+[    0.586634] S5PV210: Initializing architecture
+[    0.591008] s3c24xx-pwm s3c24xx-pwm.0: tin at 66700000, tdiv at 66700000, tin=divclk, base 0
+[    0.599206] s3c24xx-pwm s3c24xx-pwm.1: tin at 66700000, tdiv at 66700000, tin=divclk, base 8
+[    0.607607] s3c24xx-pwm s3c24xx-pwm.2: tin at 66700000, tdiv at 66700000, tin=divclk, base 12
+[    0.616099] s3c24xx-pwm s3c24xx-pwm.3: tin at 66700000, tdiv at 66700000, tin=divclk, base 16
+[    0.624680] regulator: pd_audio_supply: 5000 mV normal 
+[    0.629841] regulator: pd_cam_supply: 5000 mV normal 
+[    0.634859] regulator: pd_tv_supply: 5000 mV normal 
+[    0.639793] regulator: pd_lcd_supply: 5000 mV normal 
+[    0.644820] regulator: pd_g3d_supply: 5000 mV normal 
+[    0.649868] regulator: pd_mfc_supply: 5000 mV normal 
+[    0.657743] bio: create slab <bio-0> at 0
+[    0.659204] SCSI subsystem initialized
+[    0.662612] usbcore: registered new interface driver usbfs
+[    0.668052] usbcore: registered new interface driver hub
+[    0.673347] usbcore: registered new device driver usb
+[    0.678604] s3c-i2c s3c2440-i2c.0: i2c-0: S3C I2C adapter
+[    0.683758] s3c-i2c s3c2440-i2c.1: i2c-1: S3C I2C adapter
+[    0.689234] s3c-i2c s3c2440-i2c.2: i2c-2: S3C I2C adapter
+[    0.695038] cfg80211: Calling CRDA to update world regulatory domain
+[    0.700874] Switching to clocksource clock_source_systimer
+[    0.706964] NET: Registered protocol family 2
+[    0.710689] IP route cache hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.718033] TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+[    0.724916] TCP bind hash table entries: 16384 (order: 4, 65536 bytes)
+[    0.731326] TCP: Hash tables configured (established 16384 bind 16384)
+[    0.737659] TCP reno registered
+[    0.740769] UDP hash table entries: 256 (order: 0, 4096 bytes)
+[    0.746593] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+[    0.752922] NET: Registered protocol family 1
+[    0.757370] PMU: registered new PMU device of type 0
+[    0.762127] SMDKC110/V210 RTC, (c) 2010 Samsung Electronics
+[    0.767674] smdkc110-rtc smdkc110-rtc: rtc disabled, re-enabling
+[    0.773739] smdkc110-rtc smdkc110-rtc: rtc core: registered s3c as rtc0
+[    0.780248] S5PV210 ADC driver, (c) 2010 Samsung Electronics
+[    0.786026] cpuidle: phy_regs_save:0x4fcac000
+[    0.790263] Loaded driver for PL330 DMAC-0 s3c-pl330
+[    0.795117]  DBUFF-64x8bytes Num_Chans-8 Num_Peri-2 Num_Events-32
+[    0.801237] Loaded driver for PL330 DMAC-1 s3c-pl330
+[    0.806122]  DBUFF-8x4bytes Num_Chans-8 Num_Peri-32 Num_Events-32
+[    0.812249] Loaded driver for PL330 DMAC-2 s3c-pl330
+[    0.817127]  DBUFF-8x4bytes Num_Chans-8 Num_Peri-32 Num_Events-32
+[    0.832811] ashmem: initialized
+[    0.833034] ROMFS MTD (C) 2007 Red Hat, Inc.
+[    0.833108] msgmni has been set to 962
+[    0.836659] alg: No test for stdrng (krng)
+[    0.838374] io scheduler noop registered
+[    0.842280] io scheduler deadline registered
+[    0.846512] io scheduler cfq registered (default)
+[    0.851856] s3cfb s3cfb: [fb0] dma: 0x40500000, cpu: 0xf1000000, size: 0x005dc000
+[    0.873153] FIMD src sclk = 166750000
+[    0.993690] s3cfb s3cfb: registered successfully
+[    0.993734] Start display and show logo
+[    0.994721] PA FB = 0x40500000, bits per pixel = 32
+[    0.994767] screen width=800 height=480 va=0xe0500000 pa=0x40500000
+[    0.994822] xres_virtual = 800, yres_virtual = 1920, xoffset = 0, yoffset = 0
+[    0.998079] fb_size=6144000
+[    1.000828] Back frameBuffer[0].VAddr=e0677000 PAddr=40677000 size=1536000
+[    1.007676] Back frameBuffer[1].VAddr=e07ee000 PAddr=407ee000 size=1536000
+[    1.014516] Back frameBuffer[2].VAddr=e0965000 PAddr=40965000 size=1536000
+[    1.021421] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+[    1.028168] s5pv210-uart.0: s3c2410_serial0 at MMIO 0xe2900000 (irq = 16) is a S3C6400/10
+[    1.035943] s5pv210-uart.1: s3c2410_serial1 at MMIO 0xe2900400 (irq = 20) is a S3C6400/10
+[    1.044088] s5pv210-uart.2: s3c2410_serial2 at MMIO 0xe2900800 (irq = 24) is a S3C6400/10
+[    1.052232] s5pv210-uart.3: s3c2410_serial3 at MMIO 0xe2900c00 (irq = 28) is a S3C6400/10
+[    1.063664] brd: module loaded
+[    1.065361] loop: module loaded
+[    1.066491] Android kernel panic handler initialized (bind=kpanic)
+[    1.072887] S3C NAND Driver, (c) 2008 Samsung Electronics
+[    1.078058] S3C NAND Driver is using hardware ECC.
+[    1.082743] NAND device: Manufacturer ID: 0xec, Chip ID: 0xf1 (Samsung NAND 128MiB 3,3V 8-bit)
+[    1.091305] Creating 6 MTD partitions on "s5pv210-nand":
+[    1.096585] 0x000000080000-0x000000100000 : "misc"
+[    1.101956] 0x000000100000-0x000000900000 : "recovery"
+[    1.108382] 0x000000900000-0x000000f00000 : "kernel"
+[    1.112961] 0x000000f00000-0x000001300000 : "logo"
+[    1.117335] 0x000001500000-0x000008000000 : "rootfs-combin"
+[    1.141756] 0x000001300000-0x000001500000 : "param"
+[    1.142768] UBI: attaching mtd4 to ubi0
+[    1.142806] UBI: physical eraseblock size:   131072 bytes (128 KiB)
+[    1.142860] UBI: logical eraseblock size:    129024 bytes
+[    1.142906] UBI: smallest flash I/O unit:    2048
+[    1.146678] UBI: sub-page size:              512
+[    1.151262] UBI: VID header offset:          512 (aligned 512)
+[    1.157068] UBI: data offset:                2048
+[    2.056969] UBI: attached mtd4 to ubi0
+[    2.057005] UBI: MTD device name:            "rootfs-combin"
+[    2.057054] UBI: MTD device size:            107 MiB
+[    2.057097] UBI: number of good PEBs:        856
+[    2.057136] UBI: number of bad PEBs:         0
+[    2.058042] UBI: max. allowed volumes:       128
+[    2.062625] UBI: wear-leveling threshold:    4096
+[    2.067307] UBI: number of internal volumes: 1
+[    2.071723] UBI: number of user volumes:     1
+[    2.076142] UBI: available PEBs:             0
+[    2.080562] UBI: total number of reserved PEBs: 856
+[    2.085419] UBI: number of PEBs reserved for bad PEB handling: 8
+[    2.091394] UBI: max/mean erase counter: 5/1
+[    2.095640] UBI: image sequence number: 0
+[    2.100834] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    2.106259] s5p-ehci s5p-ehci: s5pv210 EHCI
+[    2.110339] s5p-ehci s5p-ehci: new USB bus registered, assigned bus number 1
+[    2.117394] s5p-ehci s5p-ehci: irq 87, io mem 0xec200000
+[    2.122609] UBI: background thread "ubi_bgt0d" started, PID 37
+[    2.132055] s5p-ehci s5p-ehci: USB 0.0 started, EHCI 1.00
+[    2.134149] hub 1-0:1.0: USB hub found
+[    2.137513] hub 1-0:1.0: 1 port detected
+[    2.141634] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    2.147683] s5p-ohci s5p-ohci: s5pv210 OHCI
+[    2.151729] s5p-ohci s5p-ohci: new USB bus registered, assigned bus number 2
+[    2.158749] s5p-ohci s5p-ohci: irq 87, io mem 0xec300000
+[    2.222385] hub 2-0:1.0: USB hub found
+[    2.222430] hub 2-0:1.0: 1 port detected
+[    2.222654] Initializing USB Mass Storage driver...
+[    2.222784] usbcore: registered new interface driver usb-storage
+[    2.222836] USB Mass Storage support registered.
+[    2.223206] failed to find udc vcc source
+[    2.227189] s3c-usbgadget: probe of s3c-usbgadget failed with error -2
+[    2.233705] s3c-udc : S3C HS USB Device Controller Driver, (c) 2008-2009 Samsung Electronics
+[    2.233712] s3c-udc : version 15 March 2009 (DMA Mode)
+[    2.247201] android init
+[    2.249731] android_probe pdata: c0566378
+[    2.253747] f_adb init
+[    2.256017] android_register_function adb
+[    2.260018] f_mass_storage init
+[    2.263159] fsg_probe pdev: c05656f8, pdata: c056639c
+[    2.268193] android_register_function usb_mass_storage
+[    2.273418] mice: PS/2 mouse device common for all mice
+[    2.278702] input: s3c-keypad as /devices/virtual/input/input0
+[    2.291610] s3c-keypad Initialized
+[    2.291675] S3C Keypad Driver
+[    2.291703] S5P Touchscreen driver, (c) 2008 Samsung Electronics
+[    2.296651] S5P TouchScreen got loaded successfully : 12 bits
+[    2.302430] input: S5P TouchScreen as /devices/virtual/input/input1
+[    2.308921] using rtc device, s3c, for alarmsS3C24XX RTC, (c) 2004,2006 Simtec Electronics
+[    2.316829] i2c /dev entries driver
+[    2.320516] Linux video capture interface: v2.00
+[    2.325002] s3c-csis: Samsung MIPI-CSI2 driver probed successfully
+[    2.331032] mfc_init: <6>S5PC110 MFC Driver, (c) 2009 Samsung Electronics
+[    2.331038] 
+[    2.339543] S3C JPEG Driver, (c) 2007 Samsung Electronics
+[    2.344602] JPEG driver for S5PV210
+[    2.348097] s3c_jpeg_probe: Err: Reserved memory (1048576) is less thanrequired memory (1388544)
+[    2.356826] s3c-jpg: probe of s3c-jpg failed with error -12
+[    2.362627] s3c_bat_init
+[    2.364888] sec-fake-battery sec-fake-battery: s3c_bat_probe
+[    2.370828] cpuidle: using governor ladder
+[    2.374636] cpuidle: using governor menu
+[    2.378509] sdhci: Secure Digital Host Controller Interface driver
+[    2.384631] sdhci: Copyright(c) Pierre Ossman
+[    2.396261] s3c-sdhci s3c-sdhci.0: clock source 0: hsmmc (133400000 Hz)
+[    2.396328] s3c-sdhci s3c-sdhci.0: clock source 1: hsmmc (133400000 Hz)
+[    2.402153] s3c-sdhci s3c-sdhci.0: clock source 2: sclk_mmc (47642857 Hz)
+[    2.409072] mmc0: SDHCI controller on samsung-hsmmc [s3c-sdhci.0] using ADMA
+[    2.415963] s3c-sdhci s3c-sdhci.3: clock source 0: hsmmc (133400000 Hz)
+[    2.422514] s3c-sdhci s3c-sdhci.3: clock source 1: hsmmc (133400000 Hz)
+[    2.429101] s3c-sdhci s3c-sdhci.3: clock source 2: sclk_mmc (47642857 Hz)
+[    2.435993] mmc1: SDHCI controller on samsung-hsmmc [s3c-sdhci.3] using ADMA
+[    2.445490] usbcore: registered new interface driver usbhid
+[    2.448430] usbhid: USB HID core driver
+[    2.452480] logger: created 64K log 'log_main'
+[    2.456723] logger: created 256K log 'log_events'
+[    2.461396] logger: created 64K log 'log_radio'
+[    2.465894] logger: created 64K log 'log_system'
+[    2.470641] NET: Registered protocol family 26
+[    2.474858] GACT probability NOT on
+[    2.478314] Mirror/redirect action on
+[    2.481949] u32 classifier
+[    2.484633]     Actions configured
+[    2.488016] Netfilter messages via NETLINK v0.30.
+[    2.499991] nf_conntrack version 0.5.0 (7703 buckets, 30812 max)
+[    2.500170] CONFIG_NF_CT_ACCT is deprecated and will be removed soon. Please use
+[    2.506043] nf_conntrack.acct=1 kernel parameter, acct=1 nf_conntrack module option or
+[    2.513930] sysctl net.netfilter.nf_conntrack_acct=1 to enable it.
+[    2.520524] ctnetlink v0.93: registering with nfnetlink.
+[    2.525434] xt_time: kernel timezone is -0000
+[    2.531230] ip_tables: (C) 2000-2006 Netfilter Core Team
+[    2.535068] arp_tables: (C) 2002 David S. Miller
+[    2.539624] TCP cubic registered
+[    2.542787] NET: Registered protocol family 17
+[    2.547217] NET: Registered protocol family 15
+[    2.551715] Bridge firewalling registered
+[    2.555617] lib80211: common routines for IEEE802.11 drivers
+[    2.561256] NET: Registered protocol family 36
+[    2.565693] ThumbEE CPU extension supported.
+[    2.569997] VFP support v0.3: implementor 41 architecture 3 part 30 variant c rev 2
+[    2.578200] regulator_init_complete: disabling pd_mfc_supply
+[    2.583178] regulator_init_complete: disabling pd_lcd_supply
+[    2.588801] regulator_init_complete: disabling pd_tv_supply
+[    2.594348] regulator_init_complete: disabling pd_cam_supply
+[    2.607211] regulator_init_complete: disabling pd_audio_supply
+[    2.607301] smdkc110-rtc smdkc110-rtc: rtc disabled, re-enabling
+[    2.611782] smdkc110-rtc smdkc110-rtc: setting system clock to 2010-01-01 12:00:02 UTC (1262347202)
+[    2.622112] FIMC0 registered successfully
+[    2.625971] FIMC1 registered successfully
+[    2.629952] FIMC2 registered successfully
+[    2.632891] DBUG_PORT must not use AFC!
+[    2.772101] UBIFS: recovery needed
+[    2.945383] UBIFS: recovery completed
+[    2.945423] UBIFS: mounted UBI device 0, volume 0, name "rootfs"
+[    2.945477] UBIFS: file system size:   107606016 bytes (105084 KiB, 102 MiB, 834 LEBs)
+[    2.945546] UBIFS: journal size:       5419008 bytes (5292 KiB, 5 MiB, 42 LEBs)
+[    2.947910] UBIFS: media format:       w4/r0 (latest is w4/r0)
+[    2.953730] UBIFS: default compressor: lzo
+[    2.957803] UBIFS: reserved for root:  4952683 bytes (4836 KiB)
+[    2.965642] VFS: Mounted root (ubifs filesystem) on device 0:12.
+[    2.972506] devtmpfs: mounted
+[    2.972634] Freeing init memory: 140K
+[    2.998941] mmc0: new SDHC card at address e624
+[    3.003190] mmcblk0: mmc0:e624 SU04G 3.69 GiB 
+[    3.003454]  mmcblk0: p1 p2 p3 p4
+[    3.038348] usb 2-1: new low speed USB device using s5p-ohci and address 2
+[    3.206955] input: BIAODI USB Keyboard as /devices/platform/s5p-ohci/usb2/2-1/2-1:1.0/input/input2
+[    3.207171] generic-usb 0003:0E8F:0040.0001: input: USB HID v1.10 Keyboard [BIAODI USB Keyboard] on usb-s5pv210-1/input0
+[    3.220361] input: BIAODI USB Keyboard as /devices/platform/s5p-ohci/usb2/2-1/2-1:1.1/input/input3
+[    3.220532] generic-usb 0003:0E8F:0040.0002: input: USB HID v1.10 Device [BIAODI USB Keyboard] on usb-s5pv210-1/input1
+[    4.297141] pvrsrvkm: version magic '2.6.32.9 preempt mod_unload ARMv7 ' should be '2.6.35.7-gf32325c-dirty preempt mod_unload ARMv7 '
+[    4.360933] s3c_lcd: version magic '2.6.32.9 preempt mod_unload ARMv7 ' should be '2.6.35.7-gf32325c-dirty preempt mod_unload ARMv7 '
+[    4.428666] s3c_bc: version magic '2.6.32.9 preempt mod_unload ARMv7 ' should be '2.6.35.7-gf32325c-dirty preempt mod_unload ARMv7 '
+[    4.551920] EXT4-fs (mmcblk0p3): recovery complete
+[    4.554006] EXT4-fs (mmcblk0p3): mounted filesystem with ordered data mode. Opts: (null)
+[    4.574165] battery: version magic '2.6.32.9 preempt mod_unload ARMv7 ' should be '2.6.35.7-gf32325c-dirty preempt mod_unload ARMv7 '
+[    4.580066] button_ut7gm: version magic '2.6.32.9 preempt mod_unload ARMv7 ' should be '2.6.35.7-gf32325c-dirty preempt mod_unload ARMv7 '
+[    4.586837] mma7660: version magic '2.6.32.9 preempt mod_unload ARMv7 ' should be '2.6.35.7-gf32325c-dirty preempt mod_unload ARMv7 '
+[    4.594954] ft5x0x_ts: version magic '2.6.32.9 preempt mod_unload ARMv7 ' should be '2.6.35.7-gf32325c-dirty preempt mod_unload ARMv7 '
+[    4.609065] pixcir_i2c_ts: version magic '2.6.32.9 preempt mod_unload ARMv7 ' should be '2.6.35.7-gf32325c-dirty preempt mod_unload ARMv7 '
+[    4.619531] ft5x0x_asb_ts: version magic '2.6.32.9 preempt mod_unload ARMv7 ' should be '2.6.35.7-gf32325c-dirty preempt mod_unload ARMv7 '
+[    4.625407] pixcir_i2c_ts: version magic '2.6.32.9 preempt mod_unload ARMv7 ' should be '2.6.35.7-gf32325c-dirty preempt mod_unload ARMv7 '
+[    4.651744] uc6511: version magic '2.6.32.9 preempt mod_unload ARMv7 ' should be '2.6.35.7-gf32325c-dirty preempt mod_unload ARMv7 '
+[    4.656682] IT7260_ts: version magic '2.6.32.9 preempt mod_unload ARMv7 ' should be '2.6.35.7-gf32325c-dirty preempt mod_unload ARMv7 '
+[    4.669446] pm28g_ts: version magic '2.6.32.9 preempt mod_unload ARMv7 ' should be '2.6.35.7-gf32325c-dirty preempt mod_unload ARMv7 '
+[    4.703568] EXT4-fs (mmcblk0p2): recovery complete
+[    4.705404] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+[    5.080614] init: cannot find '/system/etc/install-recovery.sh', disabling 'flash_recovery'
+/system/busybox/bin/ash: can't access tty; job control turned off
+[    5.671434] warning: `adbd' uses 32-bit capabilities (legacy support in use)
+/ # [    5.953035] PVR_K:(Error): BridgedDispatchKM: Driver initialisation not completed yet. [3809, drivers/gpu/pvr/bridged_pvr_bridge.c]
